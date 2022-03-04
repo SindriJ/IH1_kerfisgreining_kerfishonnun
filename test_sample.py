@@ -22,4 +22,9 @@ def test_fizz():
         if i %3 == 0 and i %5 != 0:
             assert fizzbuzz(i) == "Fizz"
 
-            
+def test_if_none():
+    for i in range(0,100):
+        if i %5 != 0 and i %3 != 0:
+            assert fizzbuzz(i) == i
+
+

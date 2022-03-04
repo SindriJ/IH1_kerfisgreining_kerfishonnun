@@ -6,14 +6,19 @@
 
 
 def fizzbuzz(int):
-    if int %3 == 0 and int%5 == 0:
+    if int == 0: 
+        return int
+    elif int %3 == 0 and int%5 == 0:
         return "FizzBuzz"
     elif int %5  == 0:       
         return "Buzz"
     elif int %3 == 0:
         return "Fizz"
     else:
-        return None
+        return int
+
+print (fizzbuzz(0))
+
 
 # prufa = fizzbuzz(12)
 # print (prufa)
