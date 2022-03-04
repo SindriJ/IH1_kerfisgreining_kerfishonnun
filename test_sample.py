@@ -7,19 +7,11 @@
 
 
 from sample import fizzbuzz
-from sample import func
 
 def test_FizzBuzz():
     for i in [15,30]:
         assert fizzbuzz(i) == 'FizzBuzz'
 
-
-
-
-# content of test_sample.py
-# def func(x):
-#     return x + 1
-
-
-# def test_answer():
-#     assert func(3) == 5
+def test_Buzz():
+    for i in range(1,30):
+        assert fizzbuzz(i) == "Buzz"
