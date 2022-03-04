@@ -10,6 +10,8 @@ def fizzbuzz(int):
         return "FizzBuzz"
     elif int %5  == 0:       
         return "Buzz"
+    elif int %3 == 0:
+        return "Fizz"
     else:
         return None
 

@@ -14,4 +14,12 @@ def test_FizzBuzz():
 
 def test_Buzz():
     for i in range(1,30):
-        assert fizzbuzz(i) == "Buzz"
+        if i %5 == 0 and i %3 != 0:
+            assert fizzbuzz(i) == "Buzz"
+
+def test_fizz():
+    for i in range(1,100):
+        if i %3 == 0 and i %5 != 0:
+            assert fizzbuzz(i) == "Fizz"
+
+            
