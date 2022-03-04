@@ -17,13 +17,5 @@ def fizzbuzz(int):
     else:
         return int
 
-print (fizzbuzz(0))
 
-
-# prufa = fizzbuzz(12)
-# print (prufa)
-
-
-def func(x):
-    return x + 1
 
